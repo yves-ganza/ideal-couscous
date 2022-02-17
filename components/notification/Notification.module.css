@@ -1,0 +1,23 @@
+.container {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container > div {
+    height: 20rem;
+    width: 32rem;
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 1em;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
